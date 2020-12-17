@@ -5,11 +5,6 @@ export interface Task {
   status: TaskStatus;
 }
 
-export interface TaskCreateInput {
-  title: string;
-  description: string;
-}
-
 export enum TaskStatus {
   OPEN = 'OPEN',
   IN_PROGRESS = 'IN_PROGRESS',
